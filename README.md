@@ -67,17 +67,17 @@ This project is a **React-based Rule Engine JSON Creator**, designed to provide 
 ## Installation
 ```sh
 # Clone the repository
-git clone <repo-url>
+https://github.com/RaghavanSD/Rule_Engine_UI
 cd react-rule-engine
 
 # Install dependencies
-yarn install   # or npm install
+npm install   # or npm install
 ```
 
 ## Usage
 ```sh
 # Start the development server
-yarn start     # or npm start
+npm run dev     # or npm start
 ```
 
 ## How It Works
