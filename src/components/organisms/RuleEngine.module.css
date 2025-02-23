@@ -1,0 +1,123 @@
+/* Layout and Form Styling */
+.splitContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    
+    /* Make it occupy full width & height */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Ensure it takes up the whole viewport */
+    box-sizing: border-box; /* Prevents padding from adding extra size */
+    overflow: hidden; /* Prevents unwanted scrollbars */
+  }
+  
+  .formContainer {
+    flex: 1;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .jsonContainer {
+    flex: 1;
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-y: auto;
+  }
+  
+  /* Typography */
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #444;
+    margin: 1rem 0;
+  }
+  
+  h3, h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Form Elements */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  
+  .input, .select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Rule Rows */
+  .ruleRow {
+   
+    display: flex; 
+    flex-direction: row !important;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Buttons */
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Error Messages */
+  .error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: -0.5rem;
+  }

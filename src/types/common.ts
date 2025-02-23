@@ -1,0 +1,1 @@
+export type logicalOptionsType="and" | "or" | "all"

@@ -1,0 +1,40 @@
+.jsonContainer {
+    position: relative;
+    background: #1e1e1e;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: monospace;
+    overflow-x: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .copyButton:hover {
+    opacity: 0.7;
+  }
+  
+  /* Toaster Notification */
+  .toaster {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4caf50;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
